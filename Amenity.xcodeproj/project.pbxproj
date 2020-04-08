@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		5C1FFD122400A21500D63129 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1FFD112400A21500D63129 /* AppDelegate.swift */; };
 		5C1FFD142400A21500D63129 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1FFD132400A21500D63129 /* SceneDelegate.swift */; };
-		5C1FFD162400A21500D63129 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1FFD152400A21500D63129 /* ViewController.swift */; };
-		5C1FFD192400A21500D63129 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C1FFD172400A21500D63129 /* Main.storyboard */; };
+		5C1FFD162400A21500D63129 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1FFD152400A21500D63129 /* MapViewController.swift */; };
 		5C1FFD1B2400A21600D63129 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C1FFD1A2400A21600D63129 /* Assets.xcassets */; };
 		5C1FFD1E2400A21600D63129 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C1FFD1C2400A21600D63129 /* LaunchScreen.storyboard */; };
 		5C1FFD292400A21600D63129 /* AmenityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1FFD282400A21600D63129 /* AmenityTests.swift */; };
 		5C1FFD342400A21600D63129 /* AmenityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1FFD332400A21600D63129 /* AmenityUITests.swift */; };
+		5C40819424088764004DB61D /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C40819324088764004DB61D /* MainTabBarController.swift */; };
+		5C4081962408E101004DB61D /* AddAmenityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4081952408E101004DB61D /* AddAmenityViewController.swift */; };
+		5C40819A243C2C5F004DB61D /* AmenityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C408199243C2C5F004DB61D /* AmenityTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +40,7 @@
 		5C1FFD0E2400A21500D63129 /* Amenity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Amenity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C1FFD112400A21500D63129 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C1FFD132400A21500D63129 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5C1FFD152400A21500D63129 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5C1FFD182400A21500D63129 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C1FFD152400A21500D63129 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		5C1FFD1A2400A21600D63129 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C1FFD1D2400A21600D63129 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C1FFD1F2400A21600D63129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +50,9 @@
 		5C1FFD2F2400A21600D63129 /* AmenityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmenityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C1FFD332400A21600D63129 /* AmenityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmenityUITests.swift; sourceTree = "<group>"; };
 		5C1FFD352400A21600D63129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C40819324088764004DB61D /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		5C4081952408E101004DB61D /* AddAmenityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAmenityViewController.swift; sourceTree = "<group>"; };
+		5C408199243C2C5F004DB61D /* AmenityTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmenityTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +105,10 @@
 			children = (
 				5C1FFD112400A21500D63129 /* AppDelegate.swift */,
 				5C1FFD132400A21500D63129 /* SceneDelegate.swift */,
-				5C1FFD152400A21500D63129 /* ViewController.swift */,
-				5C1FFD172400A21500D63129 /* Main.storyboard */,
+				5C40819324088764004DB61D /* MainTabBarController.swift */,
+				5C1FFD152400A21500D63129 /* MapViewController.swift */,
+				5C4081952408E101004DB61D /* AddAmenityViewController.swift */,
+				5C408199243C2C5F004DB61D /* AmenityTableViewController.swift */,
 				5C1FFD1A2400A21600D63129 /* Assets.xcassets */,
 				5C1FFD1C2400A21600D63129 /* LaunchScreen.storyboard */,
 				5C1FFD1F2400A21600D63129 /* Info.plist */,
@@ -234,7 +240,6 @@
 			files = (
 				5C1FFD1E2400A21600D63129 /* LaunchScreen.storyboard in Resources */,
 				5C1FFD1B2400A21600D63129 /* Assets.xcassets in Resources */,
-				5C1FFD192400A21500D63129 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C1FFD162400A21500D63129 /* ViewController.swift in Sources */,
+				5C40819A243C2C5F004DB61D /* AmenityTableViewController.swift in Sources */,
+				5C1FFD162400A21500D63129 /* MapViewController.swift in Sources */,
+				5C4081962408E101004DB61D /* AddAmenityViewController.swift in Sources */,
 				5C1FFD122400A21500D63129 /* AppDelegate.swift in Sources */,
+				5C40819424088764004DB61D /* MainTabBarController.swift in Sources */,
 				5C1FFD142400A21500D63129 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,14 +305,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5C1FFD172400A21500D63129 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5C1FFD182400A21500D63129 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5C1FFD1C2400A21600D63129 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
